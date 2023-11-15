@@ -1,0 +1,19 @@
+{
+  "name": "2022-fall-lab-portfolio-suvorov-denis-vitalevich-13413",
+  "version": "1.0.0",
+  "description": "Лабораторная работа по Веб-технологиям\r https://erkobrax.github.io/2022-fall-lab-portfolio-suvorov-denis-vitalevich-1/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erkobrax/2022-fall-lab-portfolio-suvorov-denis-vitalevich-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erkobrax/2022-fall-lab-portfolio-suvorov-denis-vitalevich-1/issues"
+  },
+  "homepage": "https://erkobrax.github.io/2022-fall-lab-portfolio-suvorov-denis-vitalevich-1/"
+}
