@@ -21,7 +21,7 @@ trigger.addEventListener('click', () => {
   video.style.display = 'block';
   textabouthelp.style.display = 'none';
   message.style.display = 'none';
-  document.querySelectorAll('.image-container img').forEach(() => {
-    this.style.display = 'none';
+  document.querySelectorAll('.image-container img').forEach((img) => {
+    img.style.display = 'none';
   });
 });
