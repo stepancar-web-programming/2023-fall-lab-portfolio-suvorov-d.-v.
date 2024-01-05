@@ -1,10 +1,16 @@
-let allowMovementAndJumping = true; // Флаг для контроля случайного перемещения
+(function() {
+  let allowMovementAndJumping = true; // Флаг теперь изолирован внутри IIFE
 
-const dog = document.getElementById('dog');
-const meat = document.getElementById('meat');
-const hungryText = document.getElementById('hungryText');
-const thankYouText = document.getElementById('thankYouText');
-dog.addEventListener('mouseenter', function () {
+  const dog = document.getElementById('dog');
+  const meat = document.getElementById('meat');
+  const hungryText = document.getElementById('hungryText');
+  const thankYouText = document.getElementById('thankYouText');
+
+  dog.addEventListener('mouseenter', function () {
+  const dog = document.getElementById('dog');
+  const meat = document.getElementById('meat');
+  const hungryText = document.getElementById('hungryText');
+  const thankYouText = document.getElementById('thankYouText');
   if (allowMovementAndJumping) {
     const screenWidth = window.innerWidth - this.clientWidth;
     const screenHeight = window.innerHeight - this.clientHeight;
@@ -39,4 +45,5 @@ meat.addEventListener('mouseenter', () => {
   dog.style.top = '';
   dog.style.right = '10px';
   dog.style.bottom = '10px';
-});
+})
+})();
