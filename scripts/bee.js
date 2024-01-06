@@ -10,6 +10,7 @@ function checkAllImagesHidden() {
     message.style.display = 'block';
   }
 }
+
 bee.forEach((image) => {
   image.addEventListener('click', () => {
     this.style.display = 'none';
